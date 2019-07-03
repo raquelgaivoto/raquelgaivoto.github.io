@@ -1,0 +1,26 @@
+.p1-gradient-bg,
+.primary-btn,
+.primary-btn2:hover,
+.default-header,
+.dropdown-menu,
+.banner-area,
+.myself-wrap .desc .talk-btn,
+.skillbar-bar,
+.single-feature:hover,
+.single-footer-widget .click-btn,
+.generic-banner {
+    background-image: -moz-linear-gradient(0deg, #eee45fd7 0%, #eee45fd7 100%);
+    background-image: -webkit-linear-gradient(0deg, #eee45fd7 0%, #eee45fd7 100%);
+    background-image: -ms-linear-gradient(0deg, #eee45fd7 0%, #eee45fd7 100%);
+}
+
+.p1-gradient-color,
+.single-service a:hover,
+.footer-social a:hover i,
+.single-footer-widget .bb-btn {
+    background: -moz-linear-gradient(0deg, #ffffff 0%, #eee45fd7 100%);
+    background: -webkit-linear-gradient(0deg, #ffffff 0%, #eee45fd7 100%);
+    background: -ms-linear-gradient(0deg, #ffffff 0%, #eee45fd7 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
