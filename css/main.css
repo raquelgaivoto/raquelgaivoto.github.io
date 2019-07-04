@@ -18,11 +18,11 @@
 
 /*  Basic Style
 /* =================================== */
+
 @font-face {
     font-family: 'Cocogoose';
-    src: url('../fonts/Cocogoose-Pro-Light-trial.ttf');
-  }
-
+    src: url('../fonts/Cocogoose\ Pro\ Light-trial.ttf');
+}
 
 ::-moz-selection {
     /* Code for Firefox */
