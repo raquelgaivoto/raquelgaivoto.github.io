@@ -9,18 +9,18 @@
 .single-feature:hover,
 .single-footer-widget .click-btn,
 .generic-banner {
-    background-image: -moz-linear-gradient(0deg, #eee45fd7 0%, #eee45fd7 100%);
-    background-image: -webkit-linear-gradient(0deg, #eee45fd7 0%, #eee45fd7 100%);
-    background-image: -ms-linear-gradient(0deg, #eee45fd7 0%, #eee45fd7 100%);
+    background-image: -moz-linear-gradient(0deg, #49756fd7 0%, #49756fd7 100%);
+    background-image: -webkit-linear-gradient(0deg, #49756fd7 0%, #49756fd7 100%);
+    background-image: -ms-linear-gradient(0deg, #49756fd7 0%, #49756fd7 100%);
 }
 
 .p1-gradient-color,
 .single-service a:hover,
 .footer-social a:hover i,
 .single-footer-widget .bb-btn {
-    background: -moz-linear-gradient(0deg, #ffffff 0%, #eee45fd7 100%);
-    background: -webkit-linear-gradient(0deg, #ffffff 0%, #eee45fd7 100%);
-    background: -ms-linear-gradient(0deg, #ffffff 0%, #eee45fd7 100%);
+    background: -moz-linear-gradient(0deg, #ffffff 0%, #49756fd7 100%);
+    background: -webkit-linear-gradient(0deg, #ffffff 0%, #49756fd7 100%);
+    background: -ms-linear-gradient(0deg, #ffffff 0%, #49756fd7 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }

@@ -74,6 +74,7 @@ body {
     font-weight: 300;
     line-height: 1.625em;
     position: relative;
+    margin: 0px;
 }
 
 ol,
@@ -2533,7 +2534,7 @@ h6 {
 
 .footer-area {
     padding-top: 100px;
-    background-color: #eee45fd7;
+    background-color: #49756fd7;
 }
 
 h6 {
