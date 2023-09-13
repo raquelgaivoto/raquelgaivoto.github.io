@@ -56,13 +56,13 @@
     /* border: 1px solid #ddd; */
     border: none;
     text-align: center;
-
+    position: relative;
 }
 
 /* Apply the hover effect */
-.grid-item:hover {
+/* .grid-item:hover {
     opacity: 0.55;
-}
+} */
 
 /* Style the images within the grid items */
 .grid-item img {
@@ -71,4 +71,32 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
+}
+
+.grid-item p {
+    position: absolute;
+    top: 0;
+    /* left: 0; */
+    width: 100%;
+    height: 100%;
+    /* background-color: rgba(72, 0, 255, 0.5); */
+    /* Semi-transparent black background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    margin: 0;
+}
+
+.grid-item p:hover {
+    opacity: 1;
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.black-rectangle {
+    width: 100%;
+    height: 25px;
+    /* Adjust the height as needed */
+    background-color: black;
 }
