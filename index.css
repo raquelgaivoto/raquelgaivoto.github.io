@@ -1,0 +1,41 @@
+* {
+    font-family: "Poppins";
+}
+
+header {
+    /* background-color: #333; */
+    /* color: #fff; */
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header p {
+    /* text-align: left; */
+    font-size: 24px;
+}
+
+.header-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-menu li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.header-menu button {
+    background-color: #fff;
+    /* color: #fff; */
+    border: none;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    cursor: pointer;
+    border-radius: 4px;
+}
