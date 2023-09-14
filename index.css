@@ -100,3 +100,50 @@
     /* Adjust the height as needed */
     background-color: black;
 }
+
+.fill-div {
+    color: inherit;
+}
+
+#descricao {
+    background-color: #e8e8e8;
+    /* Center everything inside a section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    /* Set the height to 80% of the viewport height */
+    justify-content: center;
+    /* Center content vertically within the section */
+}
+
+#descricao h1 {
+    margin: 0;
+    font-size: 34px;
+}
+
+#descricao p {
+    margin: 10px 0;
+    width: 80%;
+    font-size: 18px;
+}
+
+#contactos {
+    background-color: #e8e8e8;
+    /* Center everything inside a section */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+    /* Set the height to 80% of the viewport height */
+    justify-content: center;
+    /* Center content vertically within the section */
+}
+
+#titulo_contactos {
+    margin: 0;
+    font-size: 54px;
+    text-decoration: none;
+}
