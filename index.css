@@ -59,11 +59,6 @@
     position: relative;
 }
 
-/* Apply the hover effect */
-/* .grid-item:hover {
-    opacity: 0.55;
-} */
-
 /* Style the images within the grid items */
 .grid-item img {
     max-width: 100%;
@@ -112,7 +107,7 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 60vh;
+    height: 100vh;
     /* Set the height to 80% of the viewport height */
     justify-content: center;
     /* Center content vertically within the section */
@@ -120,13 +115,15 @@
 
 #descricao h1 {
     margin: 0;
-    font-size: 34px;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin-bottom: 2%;
 }
 
 #descricao p {
     margin: 10px 0;
     width: 80%;
-    font-size: 18px;
+    font-size: 1.15em;
 }
 
 #contactos {
@@ -136,14 +133,43 @@
     flex-direction: column;
     align-items: center;
     text-align: center;
-    height: 60vh;
-    /* Set the height to 80% of the viewport height */
+    height: 50vh;
     justify-content: center;
-    /* Center content vertically within the section */
 }
 
-#titulo_contactos {
+#contactos section {
+    display: flex;
+    justify-content: space-between;
+    width: 55%;
+    height: 100%;
+    align-items: center;
+}
+
+#contactos #titulo_contactos {
     margin: 0;
-    font-size: 54px;
+    font-size: 4em;
     text-decoration: none;
+    margin-bottom: 4%;
+}
+
+#contactos img {
+    width: 40%;
+}
+
+#contactos div {
+    /* display: flex; */
+    justify-content: space-around;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+#contactos a {
+    text-decoration: none;
+    color: inherit;
+}
+
+#contactos p {
+    font-size: 1em;
 }
