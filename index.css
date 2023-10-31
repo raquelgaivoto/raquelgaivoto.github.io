@@ -174,3 +174,18 @@
 #contactos p {
     font-size: 1em;
 }
+
+#videos-container {
+    background-color: #e8e8e8;
+    /* Center everything inside a section */
+    align-items: center;
+    text-align: center;
+    /* Set the height to 80% of the viewport height */
+    justify-content: center;
+    padding-top: 2%;
+    padding-bottom: 5%;
+}
+
+#videos-container h1 {
+    margin-top: 2%;
+}
